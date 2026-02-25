@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahle Kitab | Online Islamic Book Store</title>
+    <meta
+      name="description"
+      content="Ahle Kitab is an online Islamic book store offering Qur'an, Hadith, Seerah, Tafsir, and Fiqh books with secure Razorpay checkout."
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="/index.html" aria-label="Ahle Kitab home">
+          <div class="logo-mark">AK</div>
+          <div>
+            <h1>Ahl-e-Kitab</h1>
+            <p>Online Islamic Book Store</p>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a data-nav href="/index.html">Home</a>
+          <a data-nav href="/pages/shop.html">Shop</a>
+          <a data-nav href="/pages/about.html">About</a>
+          <a data-nav href="/pages/contact.html">Contact</a>
+          <a data-nav href="/pages/cart.html">Cart <span class="cart-pill" data-cart-count>0</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-wrap">
+          <div class="hero-card">
+            <h2>Bring beneficial knowledge to every home.</h2>
+            <p>
+              Ahle Kitab curates authentic Islamic books across Seerah, Hadith, Tafsir, Fiqh, and
+              daily duas. Order online and pay securely through Razorpay.
+            </p>
+
+            <div class="row">
+              <a href="/pages/shop.html" class="btn btn-primary">Shop Books</a>
+              <a href="/pages/contact.html" class="btn btn-secondary">Need Help?</a>
+            </div>
+
+            <div class="badge-row">
+              <span class="badge">Secure Checkout</span>
+              <span class="badge">WhatsApp Support</span>
+              <span class="badge">Free Shipping Over Rs. 999</span>
+            </div>
+          </div>
+
+          <aside class="card">
+            <h3 style="margin-top: 0">Why Readers Choose Us</h3>
+            <p class="muted">Carefully selected titles from trusted publishers and scholars.</p>
+            <ul>
+              <li>Authentic Islamic sources</li>
+              <li>Fast India-wide delivery</li>
+              <li>Friendly WhatsApp assistance</li>
+              <li>Simple online payment via Razorpay</li>
+            </ul>
+            <a class="btn btn-secondary" href="https://instagram.com" target="_blank" rel="noopener"
+              >Follow on Instagram</a
+            >
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h3>Featured Books</h3>
+            <a href="/pages/shop.html" class="btn btn-secondary">View All</a>
+          </div>
+          <div data-alert-root></div>
+          <div class="book-grid" data-featured></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container row" style="justify-content: space-between">
+        <p>© <span id="year"></span> Ahle Kitab Book Store. All rights reserved.</p>
+        <p>
+          Instagram: <a href="https://instagram.com" target="_blank" rel="noopener">@ahlekitab</a>
+        </p>
+      </div>
+    </footer>
+
+    <div class="whatsapp-float">
+      <a href="https://wa.me/919999999999" target="_blank" rel="noopener">WhatsApp Us</a>
+    </div>
+
+    <script src="/js/cart.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/home.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

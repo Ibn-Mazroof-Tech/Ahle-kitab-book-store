@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Confirmed | Ahle Kitab</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main class="section">
+      <div class="container">
+        <div class="card" style="max-width: 720px; margin: 60px auto; text-align: center;">
+          <h2 style="font-family: Cinzel, serif;">JazakAllahu Khairan</h2>
+          <p>Your payment was successful and your order is confirmed.</p>
+          <p class="muted">Payment reference: <span id="payment-id">-</span></p>
+          <div class="row" style="justify-content: center; margin-top: 14px;">
+            <a class="btn btn-primary" href="/index.html">Back To Home</a>
+            <a class="btn btn-secondary" href="https://wa.me/919999999999" target="_blank" rel="noopener">Message Us</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      document.getElementById("payment-id").textContent = params.get("paymentId") || "Not available";
+    </script>
+  </body>
+</html>

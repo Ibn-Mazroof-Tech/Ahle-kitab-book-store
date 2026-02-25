@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | Ahle Kitab</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="/index.html">
+          <div class="logo-mark">AK</div>
+          <div>
+            <h1>Ahl-e-Kitab</h1>
+            <p>Online Islamic Book Store</p>
+          </div>
+        </a>
+        <nav class="nav-links">
+          <a data-nav href="/index.html">Home</a>
+          <a data-nav href="/pages/shop.html">Shop</a>
+          <a data-nav href="/pages/about.html">About</a>
+          <a data-nav href="/pages/contact.html">Contact</a>
+          <a data-nav href="/pages/cart.html">Cart <span class="cart-pill" data-cart-count>0</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h3>Shop Islamic Books</h3>
+        <p class="muted">Browse by title, category, and price. Add books to cart and checkout instantly.</p>
+
+        <div class="filter-grid">
+          <input class="input" data-search placeholder="Search title or author" />
+          <select class="select" data-category></select>
+          <select class="select" data-sort>
+            <option value="relevance">Sort by relevance</option>
+            <option value="price_asc">Price: Low to High</option>
+            <option value="price_desc">Price: High to Low</option>
+            <option value="rating_desc">Top Rated</option>
+          </select>
+        </div>
+
+        <div data-alert-root></div>
+        <div class="book-grid" data-shop-grid></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Need recommendations? Message us on WhatsApp.</p>
+      </div>
+    </footer>
+
+    <div class="whatsapp-float">
+      <a href="https://wa.me/919999999999" target="_blank" rel="noopener">WhatsApp Us</a>
+    </div>
+
+    <script src="/js/cart.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/shop.js"></script>
+  </body>
+</html>

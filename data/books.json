@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bk-001",
+    "title": "The Sealed Nectar",
+    "author": "Safi-ur-Rahman al-Mubarakpuri",
+    "price": 699,
+    "category": "Seerah",
+    "language": "English",
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.9,
+    "description": "Award-winning biography of Prophet Muhammad (peace be upon him), tracing key events with reliable references and clear storytelling."
+  },
+  {
+    "id": "bk-002",
+    "title": "Fortress of the Muslim",
+    "author": "Saeed bin Ali al-Qahtani",
+    "price": 249,
+    "category": "Dua",
+    "language": "English",
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.8,
+    "description": "Essential daily supplications from the Qur'an and Sunnah, arranged by life situations for practical use."
+  },
+  {
+    "id": "bk-003",
+    "title": "Riyad-us-Saliheen",
+    "author": "Imam An-Nawawi",
+    "price": 899,
+    "category": "Hadith",
+    "language": "English",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.9,
+    "description": "Classic collection of hadiths covering worship, manners, ethics, and spiritual refinement."
+  },
+  {
+    "id": "bk-004",
+    "title": "Stories of the Prophets",
+    "author": "Ibn Kathir",
+    "price": 599,
+    "category": "History",
+    "language": "English",
+    "image": "https://images.unsplash.com/photo-1515098506762-79e1384e9d8e?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.7,
+    "description": "Narrative account of prophets mentioned in Islamic sources, with lessons for modern readers."
+  },
+  {
+    "id": "bk-005",
+    "title": "Tafsir Ibn Kathir (Vol. 1)",
+    "author": "Ibn Kathir",
+    "price": 1199,
+    "category": "Tafsir",
+    "language": "English",
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.8,
+    "description": "Foundational Qur'an commentary based on authentic reports, linguistic precision, and early scholarship."
+  },
+  {
+    "id": "bk-006",
+    "title": "Fiqh-us-Sunnah",
+    "author": "Sayyid Sabiq",
+    "price": 999,
+    "category": "Fiqh",
+    "language": "English",
+    "image": "https://images.unsplash.com/photo-1455885666463-9c35da4f75fc?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.6,
+    "description": "Accessible jurisprudence handbook with evidence-based discussion for everyday practice."
+  },
+  {
+    "id": "bk-007",
+    "title": "When the Moon Split",
+    "author": "Safi-ur-Rahman al-Mubarakpuri",
+    "price": 499,
+    "category": "Seerah",
+    "language": "English",
+    "image": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.7,
+    "description": "Concise and engaging seerah for younger and general readers with practical reflections."
+  },
+  {
+    "id": "bk-008",
+    "title": "The Qur'an (Translation)",
+    "author": "Sahih International",
+    "price": 399,
+    "category": "Qur'an",
+    "language": "English",
+    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.9,
+    "description": "Clear English translation suitable for daily reading, study circles, and first-time learners."
+  }
+]

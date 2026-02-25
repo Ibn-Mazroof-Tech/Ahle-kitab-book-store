@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | Ahle Kitab</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="/index.html">
+          <div class="logo-mark">AK</div>
+          <div>
+            <h1>Ahl-e-Kitab</h1>
+            <p>Online Islamic Book Store</p>
+          </div>
+        </a>
+        <nav class="nav-links">
+          <a data-nav href="/index.html">Home</a>
+          <a data-nav href="/pages/shop.html">Shop</a>
+          <a data-nav href="/pages/about.html">About</a>
+          <a data-nav href="/pages/contact.html">Contact</a>
+          <a data-nav href="/pages/cart.html">Cart <span class="cart-pill" data-cart-count>0</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container checkout-grid">
+        <section class="card">
+          <h3>Delivery Details</h3>
+          <p class="notice">Please enter your complete address and correct contact number for delivery updates.</p>
+          <form data-checkout-form>
+            <div class="row">
+              <div style="flex: 1">
+                <label for="name">Full Name</label>
+                <input class="input" id="name" name="name" required />
+              </div>
+              <div style="flex: 1">
+                <label for="phone">Phone</label>
+                <input class="input" id="phone" name="phone" required />
+              </div>
+            </div>
+            <div class="row">
+              <div style="flex: 1">
+                <label for="email">Email (optional)</label>
+                <input class="input" id="email" name="email" type="email" />
+              </div>
+            </div>
+            <div>
+              <label for="address">Shipping Address</label>
+              <textarea class="textarea" id="address" name="address" rows="4" required></textarea>
+            </div>
+            <div data-alert-root></div>
+            <div class="row" style="margin-top: 12px">
+              <button type="button" class="btn btn-primary" data-pay-now>Pay with Razorpay</button>
+              <a class="btn btn-secondary" href="/pages/cart.html">Back to Cart</a>
+            </div>
+          </form>
+        </section>
+
+        <aside class="card">
+          <h3>Order Summary</h3>
+          <div data-checkout-summary></div>
+        </aside>
+      </div>
+    </main>
+
+    <script src="/js/cart.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/checkout.js"></script>
+  </body>
+</html>

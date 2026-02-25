@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart | Ahle Kitab</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="/index.html">
+          <div class="logo-mark">AK</div>
+          <div>
+            <h1>Ahl-e-Kitab</h1>
+            <p>Online Islamic Book Store</p>
+          </div>
+        </a>
+        <nav class="nav-links">
+          <a data-nav href="/index.html">Home</a>
+          <a data-nav href="/pages/shop.html">Shop</a>
+          <a data-nav href="/pages/about.html">About</a>
+          <a data-nav href="/pages/contact.html">Contact</a>
+          <a data-nav href="/pages/cart.html">Cart <span class="cart-pill" data-cart-count>0</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h3>Your Cart</h3>
+        <div data-cart-root></div>
+      </div>
+    </main>
+
+    <script src="/js/cart.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/cart-page.js"></script>
+  </body>
+</html>
